@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weatherTracker</title>
+    <link rel="stylesheet" href="./weather.css">
+    <link rel="shortcut icon" href="./Images/icon.png" type="image/x-icon">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <h2 id="head2">WeatherTracker</h2>
+        <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="./register.html" target="_blank">Register/Login</a></li>
+            <li><a href="#">Logout</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <div class="searchbar">
+             <input type="text" placeholder="Search the location here..." id="search">
+             <button type="submit" id="btn">Get</button>
+        </div>
+       
+        <div class="report hidden" >
+            <div class="child child1" id="cityName"></div>
+            <div class="child child2" id="temp"></div>
+            <div class="child" id="feels"></div>
+            <div class="child" id="desc"></div>
+            <div class="child" id="humid"></div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p class="foot">copyright @2026 all rights reserved</p>
+    </footer>
+    <script src="./weather.js"></script>
+</body>
+</html>
