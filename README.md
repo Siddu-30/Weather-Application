@@ -1,0 +1,1 @@
+Weather-Application is a UI-friendly web application built using HTML,CSS,and JavaScript. It is a simple application used track the weather at any location globally and it helps the users to find their location's current weather,humidity,and temperature.
